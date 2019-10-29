@@ -1,0 +1,94 @@
+<div id="portfolio-page" class="portfolio-page-content">
+    <div class="container">
+        <div class="portfolio-nav">
+            <div id="portfolio-close-button" class="portfolio-close-button">
+                <a href="#portfolio"><i class="fa fa-close"></i></a>
+            </div>
+        </div>
+
+        <div class="portfolio-title">
+            <h1>Django REST Framework</h1>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-7 col-md-7 portfolio-block">
+                <div class="owl-carousel portfolio-page-carousel">
+                    <div class="item">
+                        <img src="images/portfolio/portfolio_details/1_1.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="images/portfolio/portfolio_details/1_2.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="images/portfolio/portfolio_details/1_3.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="portfolio-page-video embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" src="https://youtube.com/embed/RdyVaEZUKnI" frameborder="0" allowfullscreen ng-show="showvideo" ></iframe>
+                </div>
+
+                <!--
+                <div class="portfolio-page-image">
+                    <img src="images/portfolio/portfolio_details/1_1.jpg" alt="">
+                </div>
+                -->
+
+                <script type="text/javascript">
+                    jQuery(document).ready(function($){
+                        $('.portfolio-page-carousel').owlCarousel({
+                            smartSpeed:1200,
+                            items: 1,
+                            loop: true,
+                            dots: true,
+                            nav: true,
+                            navText: false,
+                            margin: 10
+                        });
+                    }); 
+                </script>
+            </div>
+
+            <div class="col-sm-5 col-md-5 portfolio-block">
+                <!-- Project Description -->
+                <div class="block-title">
+                    <h3>Descrição</h3>
+                </div>
+                <ul class="project-general-info">
+                    <li><p><i class="fa fa-user"></i> Diego Costa</p></li>
+                    <li><p><i class="fa fa-globe"></i> <a href="https://ponto-turismo.herokuapp.com" target="_blank">ponto-turismo.herokuapp.com</a></p></li>
+                    <li><p><i class="fa fa-calendar"></i> 25 outubro, 2019</p></li>
+                </ul>
+
+                <p class="text-justify">Este é um projeto de Web API de pontos turísticos com Python + Django + Django Rest Framework e deploy no Heroku, utilizando as melhores práticas de desenvolvimento de software, desenvolvimento de web API's e de deploy seguro e confiável utilizando o PaaS Heroku.
+
+Por fim, este projeto visa explicar os conceitos importantes sobre RESTful API's, como viewsets, serializers, responses, permissões, autenticação via token e consumo de API's</p>
+                <!-- /Project Description -->
+
+                <!-- Technology -->
+                <div class="tags-block">
+                    <div class="block-title">
+                        <h3>Tecnologias usadas</h3>
+                    </div>
+                    <ul class="tags">
+                        <li><a>HTML5</a></li>
+                        <li><a>CSS3</a></li>
+                        <li><a>Python</a></li>
+                        <li><a>Django REST</a></li>
+                        <li><a>Django</a></li>
+                    </ul>
+                </div>
+                <!-- /Technology -->
+
+                <!-- Share Buttons -->
+                <div class="btn-group share-buttons">
+                    <div class="block-title">
+                        <h3>Compartilhe</h3>
+                    </div>
+                    <a href="https://github.com/diegocostacmp/api-turismo" target="_blank" class="btn"><i class="fa fa-github"></i> </a>
+                </div>
+                <!-- /Share Buttons -->
+            </div>
+        </div>
+    </div>
+</div>
