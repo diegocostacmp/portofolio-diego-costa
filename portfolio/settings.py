@@ -22,7 +22,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 from decouple import config
 SECRET_KEY = config('SECRET_KEY')
 DEBUG = config('DEBUG', default=False, cast=bool)
-ALLOWED_HOSTS = ['diegocosta.herokuapp.com']
+ALLOWED_HOSTS = ['diegocosta.herokuapp.com', 'diegocosta.dev']
 
 
 # Application definition
